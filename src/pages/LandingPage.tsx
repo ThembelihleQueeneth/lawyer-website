@@ -1,4 +1,6 @@
+import { Footer } from '../components/Footer';
 import Navbar from '../components/Navbar';
+import { ContactForm } from '../sections/ContactUs';
 import { Hero } from '../sections/Hero';
 import  { Services } from '../sections/Services';
 import { Team } from '../sections/Team';
@@ -15,6 +17,8 @@ export const LandingPage = () => {
       <Services />
       <Testimonials />
       <Team />
+      <ContactForm />
+      <Footer />
 
       
     </>
