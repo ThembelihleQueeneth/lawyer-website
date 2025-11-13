@@ -69,7 +69,7 @@ export const ContactForm = () => {
           <div className="text-center">
             <button
               type="submit"
-              className="bg-yellow-500 text-white font-semibold px-8 py-3 rounded-lg shadow hover:bg-yellow-600 transition duration-300"
+              className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-4 px-8 rounded-full shadow-lg transition-transform duration-200 hover:scale-105 focus:outline-none focus:ring-4 focus:ring-yellow-300"
             >
               Submit
             </button>
